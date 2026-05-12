@@ -24,17 +24,17 @@ def boas_vindas():
     print("   Bem-vindo ao GitHub!\n")
     
     # 2. Informações pessoais
-    nome = "[Seu Nome]"
-    turma = "[Turma]"
+    nome = ("ANDRE ALMEIDA CORREIA")
+    turma = ("2A")
     
     print("2️⃣ Sobre mim:")
-    print(f"   Nome: {nome}")
-    print(f"   Turma: {turma}")
+    print(f"   Nome: ("ANDRE ALMEIDA CORREIA")
+    print(f"   Turma: ("2A")
     print()
 
     # 3. Data e hora atual
     agora = datetime.datetime.now()
-    print("3️⃣ Data e hora atual:")
+    print("12/05/2026 14:24")
     print(f"   {agora.strftime('%d/%m/%Y às %H:%M:%S')}\n")
 
 # Função principal
